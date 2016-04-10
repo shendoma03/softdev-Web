@@ -1,0 +1,14 @@
+http://localhost:8080/sprinklrws/services/request/latest
+http://localhost:8080/sprinklrws/services/request/1/complete
+
+http://localhost:8080/sprinklrws/services/request/{operation}/operation
+http://localhost:8080/sprinklrws/services/request/on/operation
+
+http://localhost:8080/sprinklrws/services/scan
+http://localhost:8080/sprinklrws/services/scan/display
+
+http://localhost:8080/sprinklrws/services/scan/get/analogsm/{analogSmLevel}/sm/{smLevel}/temp/{temp}/water/{waterLevel}
+http://localhost:8080/sprinklrws/services/scan/get/analogsm/574/sm/wet/temp/32/water/no%20water
+
+http://localhost:8080/sprinklrws/services/access/validate/user/{user-name}/pwd/{password}
+http://localhost:8080/sprinklrws/services/access/validate/user/rluangco/pwd/12345
